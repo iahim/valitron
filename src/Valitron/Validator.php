@@ -1611,4 +1611,14 @@ class Validator
         //array contains at least one key that's not an can not be cast to an integer
         return count(array_filter(array_keys($input), 'is_string')) > 0;
     }
+
+    /**
+     * Debug function to display current messages based on selected language
+     *
+     * 
+     */
+
+     public function showAllMessages(){
+        print_r(static::$_ruleMessages);
+    }
 }
