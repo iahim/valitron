@@ -1361,6 +1361,26 @@ class Validator
     }
 
     /**
+     * Register new validation rule callback where MESSAGE is added to lang file
+     *
+     * @param string $name
+     * @param callable $callback
+     * @param string $message
+     * @throws \InvalidArgumentException
+     */
+    public static function addRuleLang($name, $callback, $message = null)
+    {
+        // if ($message === null) {
+            // $message = static::ERROR_DEFAULT;
+        // }
+
+        static::assertRuleCallback($callback);
+
+        static::$_rules[$name] = $callback;
+        // static::$_ruleMessages[$name] = $message;
+    }
+
+    /**
      * @param  mixed $fields
      * @return string
      */
