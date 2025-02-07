@@ -16,12 +16,6 @@ with NO dependencies. Valitron uses simple, straightforward validation
 methods with a focus on readable and concise syntax. Valitron is the
 simple and pragmatic validation library you've been looking for.
 
-[![Build
-Status](https://github.com/vlucas/valitron/actions/workflows/test.yml/badge.svg)](https://github.com/vlucas/valitron/actions/workflows/test.yml)
-[![Latest Stable Version](https://poser.pugx.org/vlucas/valitron/v/stable.png)](https://packagist.org/packages/vlucas/valitron)
-[![Total Downloads](https://poser.pugx.org/vlucas/valitron/downloads.png)](https://packagist.org/packages/vlucas/valitron)
-
-[Get supported vlucas/valitron with the Tidelift Subscription](https://tidelift.com/subscription/pkg/packagist-vlucas-valitron?utm_source=packagist-vlucas-valitron&utm_medium=referral&utm_campaign=readme) 
 
 ## Why Valitron?
 
