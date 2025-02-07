@@ -5,6 +5,7 @@ I liked how valitron works, but i wanted to extend it with custom rules while ke
 ## How to install? 
 ```bash
 composer require iahim/valitron:dev-master
+
 ```
 
 ## Valitron: Easy Validation That Doesn't Suck
