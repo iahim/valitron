@@ -1,3 +1,12 @@
+
+## WHY another fork? 
+I liked how valitron works, but i wanted to extend it with custom rules while keeping it multilanguage. So in order to use the language feature implemented, i had to add another method called `addRuleLang` 
+
+## How to install? 
+```bash
+composer require iahim/valitron:dev-master
+```
+
 ## Valitron: Easy Validation That Doesn't Suck
 
 Valitron is a simple, minimal and elegant stand-alone validation library
@@ -34,7 +43,7 @@ Valitron uses [Composer](http://getcomposer.org) to install and update:
 
 ```
 curl -s http://getcomposer.org/installer | php
-php composer.phar require vlucas/valitron
+composer require iahim/valitron:dev-master
 ```
 
 The examples below use PHP 5.4 syntax, but Valitron works on PHP 5.3+.
