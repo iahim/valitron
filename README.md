@@ -1189,6 +1189,21 @@ This rule will take the same parameters as
 `Validator::addRule` but it has to be called on a `Validator`
 instance.
 
+## Adding Custom Validation Rule with message pulled from LANG file
+
+To add your own validation rule, use the `addRuleLang` method with a rule
+name, a custom callback or closure, and a error message to display in
+case of an error. The callback provided should return boolean true or
+false.
+
+```php
+Valitron\Validator::addRuleLang('alwaysFail', function($field, $value, array $params, array $fields) {
+    return false;
+});
+```
+Make sure that in your language array you have a message for `alwaysFail` rule.
+
+
 ## Chaining rules
 
 You can chain multiple rules together using the following syntax.
