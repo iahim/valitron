@@ -5,6 +5,7 @@
 
 I liked how valitron works, but i wanted to extend it with custom rules while keeping it multilanguage. So in order to use the language feature implemented, i had to add another method called `addRuleLang` 
 
+
 ## How to install? 
 ```bash
 composer require iahim/valitron:dev-master
